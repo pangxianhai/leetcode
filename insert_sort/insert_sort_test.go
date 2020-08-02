@@ -10,3 +10,8 @@ func TestInsertOrder(t *testing.T) {
 	afterOrder := InsertSort(data)
 	fmt.Println(afterOrder)
 }
+
+func Test(t *testing.T) {
+	s := "abcd"
+	fmt.Println(string(s[1]))
+}
